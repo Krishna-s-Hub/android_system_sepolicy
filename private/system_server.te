@@ -600,6 +600,7 @@ get_prop(system_server, input_device_config_prop)
 r_dir_file(system_server, vendor_app_file)
 r_dir_file(system_server, vendor_framework_file)
 r_dir_file(system_server, vendor_overlay_file)
+r_dir_file(system_server, vendor_richtap_resources)
 
 # Access /vendor/etc/dma_heap.json
 allow system_server vendor_dma_heap_config_file:file r_file_perms;
